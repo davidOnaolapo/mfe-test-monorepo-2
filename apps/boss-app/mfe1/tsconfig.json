@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "declarationDir": "dist",
+    "esModuleInterop":true,
+    "baseUrl": "src",
+    "paths": {
+      "@test-monorepo/mfe2-lib": ["../../../consumed-app/mfe2-lib/src"]
+    }
+  },
+  "files": ["src/test-monorepo-mfe1.tsx"],
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"]
+}

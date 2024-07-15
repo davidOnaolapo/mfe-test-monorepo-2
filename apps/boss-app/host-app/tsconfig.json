@@ -1,0 +1,8 @@
+{
+  "files": ["src/test-monorepo-root-config.ts"],
+  "compilerOptions": {
+    "declarationDir": "dist"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"]
+}
